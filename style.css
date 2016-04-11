@@ -382,15 +382,15 @@ h6 {
 	font-family: "Neuzeit-Grotesk";
 	font-weight: 300;
 	letter-spacing: 2px;
-	margin: -20px 50px 0px 50px;
+	/*margin: -20px 50px 0px 50px;*/
 }
 
 .navbar-nav .open .dropdown-menu > li > a{
 	text-align: inherit;
 }
 .nav > li a:hover, .nav > li a:focus{
-	background:transparent;
-	border: solid #EF493B 1px;
+	/*background:transparent;
+	border: solid #EF493B 1px;*/
 }
 
 .active {
@@ -437,8 +437,9 @@ Homepage
 }
 
 .inner-heading {
-	padding: 100px 0px 0px 0px !important;
+	padding: 140px 0px 0px 0px !important;
 	font-size: 36px;
+	letter-spacing: 5px;
 }
 
 .center-inner-heading {
@@ -480,10 +481,6 @@ p {
 
 #scroll-hero-2 img {
 	max-width: 50px;
-}
-
-.faces {
-	margin-left: 80px !important;
 }
 
 #bloc-4 img {
@@ -749,6 +746,7 @@ Contact
 
 .navigation a:hover {
 	border: solid #ef493b 1px;
+	background-color: white !important;
 }
 
 .navigation-home {
@@ -764,27 +762,17 @@ Contact
 
 }
 
-.navigation-home li {
-	display: inline-block;
-	padding: 0 50px;
-}
-
-.navigation-home a {
-	font-size: 17px;
-	font-family: "Neuzeit-Grotesk";
-	line-height: 86px;
-	padding: 8px;
-}
-
-.navigation-home a:hover {
-	border: solid #ef493b 1px;
-}
-
 /* ==============================
 
 @media
 
 =================================*/
+@media (min-width: 1200px){
+.faces {
+	margin-left: 60px !important;
+  }
+}
+
 @media (min-width: 1000px){
 	#bloc-8 img {
 		min-width: 286px;
@@ -813,9 +801,8 @@ Contact
 		/*right:20px;*/
 		/*transform:translate(0, -50%);
 		-webkit-transform:translateY(-50%);*/
-		margin: 0 auto;
-		text-align: center;
-		font-family: "Neuzeit-Grotesk";
+		/*margin: 0 auto;*/
+		/*text-align: center;*/
 	}
 	.nav-invert .site-navigation{
 		left:20px;
@@ -1247,7 +1234,7 @@ iframe {
         background-attachment:scroll;
     }
     
-    .navbar .nav{
+    .navbar {
         padding-top: 0;
         border-top:1px solid rgba(0,0,0,.2);
         float:none!important;
