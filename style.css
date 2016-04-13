@@ -962,7 +962,7 @@ nav .caret{
 }
 
 .hero .btn-dwn:hover{
-	color: rgba(255,255,255,1);
+	/*color: rgba(255,255,255,1);*/
 }
 .hero .hero-nav{
 	padding-left:inherit;
@@ -1442,9 +1442,9 @@ iframe {
     .a-block{
         padding:0 10px;
     }
-    .btn-dwn{
+    /*.btn-dwn{
        display:none; 
-    }
+    }*/
     .voffset{
         margin-top:5px;
     }
