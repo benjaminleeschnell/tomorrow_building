@@ -370,9 +370,9 @@ h6 {
 	margin: 10px 10px 0 0;
 	border: 0px;
 }
-.navbar-toggle:hover{
+/*.navbar-toggle:hover{
 	background:transparent!important;
-}
+}*/
 .navbar-toggle .icon-bar{
 	background-color: #ef493b;
 	width: 26px;
@@ -747,6 +747,9 @@ Contact
 	background-color: white !important;
 }
 
+.navbar-brand:hover {
+	background-color: white !important;
+}
 
 
 /* ==============================
@@ -754,60 +757,6 @@ Contact
 @media
 
 =================================*/
-/*@media (min-width: 1275px) {
-	.faces {
-		margin-left: 150px !important;
-	}
-}
-
-
-@media (min-width: 1340px) {
-	.faces {
-		margin-left: 150px !important;
-	}
-}
-
-@media (min-width: 1400px) {
-	.faces {
-		margin-left: 200px !important;
-	}
-}
-
-@media (min-width: 1500px) {
-	.faces {
-		margin-left: 300px !important;
-	}
-}
-
-@media (min-width: 1600px) {
-	.faces {
-		margin-left: 400px !important;
-	}
-}
-
-@media (min-width: 1700px) {
-	.faces {
-		margin-left: 500px !important;
-	}
-}
-
-@media (min-width: 1800px) {
-	.faces {
-		margin-left: 600px !important;
-	}
-}*/
-
-/*@media (min-width: 1900px) {
-	.faces {
-		margin-left: 700px !important;
-	}
-}
-
-@media (min-width: 2000px) {
-	.faces {
-		margin-left: 800px !important;
-	}
-}*/
 
 @media (min-width: 1000px){
 	#bloc-8 img {
