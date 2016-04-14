@@ -699,16 +699,16 @@ Contact
 	line-height: 1.5em;
 }
 
-/*.thrive-here: {
-	display: block;
-	float: left;
-}
+/* ========
 
-.thrive-img {
-	display: inline-block;
-	float: right;
-	max-width: 300px;
-}*/
+FAQ
+
+==========*/
+
+.faq {
+	display: relative;
+	padding-top: 50px;
+}
 
 /* = Navitation Experimenting
 -------------------------------------------------------------- */
