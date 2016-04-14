@@ -1,7 +1,8 @@
-/*-----------------------------------------------------------------------------------
-        TB
-        Built with Blocs
------------------------------------------------------------------------------------*/
+/* colors
+
+red: #ef493b;
+
+*/
 
 body{
 	margin:0 15px;
@@ -1013,7 +1014,7 @@ button{
 
 .divider-h span{
 	display: block;
-	border-top:1px solid transparent;
+	border-top:1px solid #ef493b;
 }
 .divider-half{
 	width: 60px;

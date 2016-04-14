@@ -17,6 +17,12 @@ $(document).ready(function()
 	setUpLightBox(); // Add lightbox Support
 });
 
+$(document).ready(function() {
+  $('#fullpage').fullpage({
+    anchors:['section0', 'section1', 'section2', 'section3']
+  });
+});
+
 // Window resize 
 $(window).resize(function()
 {		
