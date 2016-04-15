@@ -17,9 +17,6 @@ body{
 a,button{outline: none!important;} /* Prevent ugly blue glow on chrome and safari */
 
 
-   
-
-
 /* Globals type styling */
     h2, h4, h5, h6, label, .btn, a{
 	font-family:"Neuzeit-Grotesk";
@@ -43,6 +40,7 @@ h6 {
 
 .ng {
 	font-family: "Neuzeit-Grotesk";
+	color: black;
 }
 
 /*.sm-hr {
@@ -353,6 +351,7 @@ h6 {
 	font-weight: 300;
 	letter-spacing: 2px;
 	/*margin: -20px 50px 0px 50px;*/
+	background-color: white !important;
 }
 
 .navbar-nav .open .dropdown-menu > li > a{
@@ -1110,9 +1109,9 @@ iframe {
 .tc-white-2{
 	color:#FFFFFF!important;
 }
-.tc-dim-gray{
+/*.tc-dim-gray{
 	color:#707070!important;
-}
+}*/
 .tc-carmine-pink{
 	color:#EF493B!important;
 }
