@@ -362,8 +362,10 @@ h6 {
 	border: solid #EF493B 1px;
 }*/
 
-.active {
-	/*background:transparent;*/
+/* the .active class below conflicts with something in full-page, that's why I added .navigation .active and then the declarations. */
+
+.navigation .active {
+	background:transparent;
 	border: solid #EF493B 1px;
 }
 .navbar-toggle{
@@ -716,7 +718,7 @@ FAQ
 	height: 86px;
 	margin: 0;
 	background-color: white;
-	position:fixed;
+	position:fixed !important;
 	top:0;
 	z-index:1000;
 	width: 100%;
@@ -1336,7 +1338,7 @@ iframe {
          display:block;
          width:100%;
      }
-    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container{
+    .bloc-tile-2 .container, .bloc-tile-3 .container, .bloc-tile-4 .container {
 	   padding-left: 10px;
 	   padding-right: 10px;
     }
